@@ -1,0 +1,110 @@
+/* * {
+  border: 1px solid gold;
+} */
+
+@font-face {
+  font-family: 'gyparody';
+  src: url('../fonts/gyparody/gyparody.ttf');
+}
+
+@font-face {
+  font-family: 'mukta';
+  src: url('../fonts/Mukta/Mukta-Light.ttf');
+}
+
+@font-face {
+  font-family: 'anton';
+  src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #100073;
+  border-radius: 10px;
+  color: white;
+}
+
+header h1 {
+  font-family: 'gyparody';
+  font-size: 55px;
+  margin: 0px;
+  padding: 1%;
+}
+
+.fas {
+  font-size: 50px;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: #100073;
+  margin: 1% 0%;
+  border-radius: 10px;
+  height: 51em;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 75%;
+  margin-top: 3%;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 30%;
+  height: 80%;
+  border: 5px solid #CB8E3C;
+  border-radius: 10px;
+}
+
+.person img {
+  height: 30%;
+  width: 30%;
+}
+
+.person h2 {
+  font-family: 'anton';
+  font-size: 35px;
+}
+
+.person h4 {
+  font-family: 'mukta';
+  font-size: 25px;
+}
+
+.person h5 {
+  font-family: 'mukta';
+  font-size: 20px;
+}
+
+.submitBtn {
+  font-size: 40px;
+  padding: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: #100073;
+  height: 20px;
+  font-family: 'gyparody';
+  border-radius: 10px;
+}
+
+.submitBtn:hover {
+  color: #CB8E3C;
+  text-shadow: 3px 3px black;
+}
