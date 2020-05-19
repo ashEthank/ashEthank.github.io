@@ -1,0 +1,110 @@
+/* * {
+  border: 1px solid gold;
+} */
+
+@font-face {
+  font-family: 'gyparody';
+  src: url('../fonts/gyparody/gyparody.ttf');
+}
+
+@font-face {
+  font-family: 'mukta';
+  src: url('../fonts/Mukta/Mukta-Light.ttf');
+}
+
+@font-face {
+  font-family: 'anton';
+  src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #100073;
+  border-radius: 10px;
+  color: white;
+}
+
+header h1 {
+  font-family: 'gyparody';
+  font-size: 55px;
+  margin: 0px;
+  padding: 1%;
+}
+
+.fas {
+  font-size: 50px;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+}
+
+#clear {
+  color: #100073;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #100073;
+  margin: 1% 0%;
+  border-radius: 10px;
+  height: 51em;
+  color: white;
+}
+
+.name h3 {
+  font-family: 'anton';
+  font-size: 60px;
+  color: #CB8E3C;
+  text-shadow: 10px 10px black;
+}
+
+.forms {
+  font-family: 'mukta';
+  padding: 20px;
+}
+
+.forms input {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.difficulty {
+  font-family: 'mukta';
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+.difficulty input {
+  margin-left: 100px;
+}
+
+input[type='radio'] {
+  transform: scale(2);
+  margin-right: 10px;
+}
+
+.submitBtn {
+  font-size: 40px;
+  padding: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: #100073;
+  height: 20px;
+  font-family: 'gyparody';
+  border-radius: 10px;
+}
+
+.submitBtn:hover {
+  color: #CB8E3C;
+  text-shadow: 3px 3px black;
+}
