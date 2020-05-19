@@ -1,0 +1,98 @@
+/* * {
+  border: 1px solid gold;
+} */
+
+@font-face {
+  font-family: 'gyparody';
+  src: url('../fonts/gyparody/gyparody.ttf');
+}
+
+@font-face {
+  font-family: 'mukta';
+  src: url('../fonts/Mukta/Mukta-Light.ttf');
+}
+
+@font-face {
+  font-family: 'anton';
+  src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #100073;
+  border-radius: 10px;
+  color: white;
+}
+
+header h1 {
+  font-family: 'gyparody';
+  font-size: 55px;
+  margin: 0px;
+  padding: 1%;
+}
+
+.fas {
+  font-size: 50px;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  margin: 1% 0%;
+  border-radius: 10px;
+  border: 20px solid #100073;
+  background-color: #CB8E3C;
+  height: 51em;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  height: 80%;
+  margin-top: 5%;
+}
+
+.categoryRow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 20%;
+}
+
+.categories {
+  display: flex;
+  border: 4.7px solid black;
+  background-color: #100073;
+  width: 15%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'mukta';
+  font-size: 30px;
+}
+
+.value {
+  display: flex;
+  border: 3px solid black;
+  background-color: #100073;
+  width: 15.2%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #CB8E3C;
+  font-family: 'anton';
+  text-shadow: 4px 4px black;
+  font-size: 50px;
+  cursor: pointer;
+}
