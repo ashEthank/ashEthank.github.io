@@ -114,6 +114,7 @@ header h1 {
   text-align: center;
   background-color: #100073;
   color: white;
+  cursor: pointer;
 }
 
 #none {
